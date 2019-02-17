@@ -118,8 +118,10 @@ def get_win_probability(team1, team2, game_id):
 
     win_probability = probabilities[0][1]
     seed = team_df['team_seed'][0]
+    next_game = game_df['next_game'][0]
+    next_game_pos = game_df['next_game_pos'][0]
 
-    return [win_probability, seed]
+    return [win_probability, seed, next_game, next_game_pos]
 
 
 # Route for retrieving game prediction information
@@ -138,6 +140,8 @@ def prediction(team_1, team_2, gameid):
         predicted_winner_seed = str(team_2_prob[1])
         confidence_spread = team_2_prob[0] - team_1_prob[0]
 
+    next_game = team_1_prob[2]
+    next_game_pos = team_1_prob[3]
 
     probs = {'team1': team_1,
         'team1_win_prob': team_1_prob[0],
@@ -145,13 +149,13 @@ def prediction(team_1, team_2, gameid):
         'team2_win_prob': team_2_prob[0],
         'predicted_winner': predicted_winner,
         'predicted_winner_seed': predicted_winner_seed,
-        'confidence_spread': confidence_spread}
+        'confidence_spread': confidence_spread,
+        'next_game': next_game,
+        'next_gam_pos': next_game_pos}
 
     return jsonify(probs)
 
-@app.route("/")
-def index():
-    return master_game_df.to_json()
+
 
 if __name__ == "__main__":
     app.run()
