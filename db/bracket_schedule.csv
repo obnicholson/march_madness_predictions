@@ -1,11 +1,11 @@
 ﻿game_id,bracket,round,team1,seed1,team2,seed2,location,next_game,next_game_pos
 E_1_1v16,East,1,Villanova,1,Radford,16,"Pittsburgh, PA",E_2_1,1
 E_1_8v9,East,1,Virginia Tech,8,Alabama,9,"Pittsburgh, PA",E_2_1,2
-E_1_5v12,East,1,West Virginia,5,Miurray State,12,"San Diego, CA",E_2_2,1
+E_1_5v12,East,1,West Virginia,5,Murray State,12,"San Diego, CA",E_2_2,1
 E_1_4v13,East,1,Wichita State,4,Marshall,13,"San Diego, CA",E_2_2,2
 E_1_6v11,East,1,Florida,6,St. Bonaventure,11,"Dallas, TX",E_2_3,1
 E_1_3v14,East,1,Texas Tech,3,Stephen F. Austin,14,"Dallas, TX",E_2_3,2
-E_1_7v10,East,1,Arkansas,7,Bulter,10,"Detroit, MI",E_2_4,1
+E_1_7v10,East,1,Arkansas,7,Butler,10,"Detroit, MI",E_2_4,1
 E_1_2v15,East,1,Purdue,2,Cal State Fullerton,15,"Detroit, MI",E_2_4,2
 M_1_1v16,Midwest,1,Kansas,1,Penn,16,"Wichita, KS",M_2_1,1
 M_1_8v9,Midwest,1,Seton Hall,8,NC State,9,"Wichita, KS",M_2_1,2

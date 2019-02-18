@@ -155,7 +155,27 @@ def prediction(team_1, team_2, gameid):
 
     return jsonify(probs)
 
+@app.route("/")
+def round_1():
+    game_info_query = session.query(games).statement
+    games_df = pd.read_sql_query(game_info_query, session.bind)
 
+    rd_1_games = games_df.loc[(games_df['round'] == '1'),:]
+
+    game_data_list = []
+
+    for index, game in rd_1_games.iterrows():
+        team1 = game['team1']
+        team2 = game['team2']
+        game_id = game['game_id']
+
+        game_data = prediction(team1, team2, game_id)
+
+        game_data_list.append(game_data)
+    
+    data_df = pd.DataFrame(game_data_list)
+
+    return data_df.to_json()
 
 if __name__ == "__main__":
     app.run()

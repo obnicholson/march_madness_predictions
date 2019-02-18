@@ -1,0 +1,65 @@
+﻿bracket,team,seed,rd_1,rd_1_location,rd_1_pos,rd_2,rd_2_location,rd_2_pos,rd_3,rd_3_location,rd_3_pos,rd_4,rd_4_location,rd_4_pos,rd_5,rd_5_location,rd_5_pos,rd_6,rd_6_location,rd_6_pos
+East,Villanova,1,E_1_1v16,"Pittsburgh, PA",1,E_2_1,"Pittsburgh, PA",1,E_3_1,"Boston, MA",1,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Virginia Tech,8,E_1_8v9,"Pittsburgh, PA",1,E_2_1,"Pittsburgh, PA",2,E_3_1,"Boston, MA",1,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,West Virginia,5,E_1_5v12,"San Diego, CA",1,E_2_2,"San Diego, CA",1,E_3_1,"Boston, MA",2,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Wichita State,4,E_1_4v13,"San Diego, CA",1,E_2_2,"San Diego, CA",2,E_3_1,"Boston, MA",2,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Florida,6,E_1_6v11,"Dallas, TX",1,E_2_3,"Dallas, TX",1,E_3_2,"Boston, MA",1,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Texas Tech,3,E_1_3v14,"Dallas, TX",1,E_2_3,"Dallas, TX",2,E_3_2,"Boston, MA",1,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Arkansas,7,E_1_7v10,"Detroit, MI",1,E_2_4,"Detroit, MI",1,E_3_2,"Boston, MA",2,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Purdue,2,E_1_2v15,"Detroit, MI",1,E_2_4,"Detroit, MI",2,E_3_2,"Boston, MA",2,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+Midwest,Kansas,1,M_1_1v16,"Wichita, KS",1,M_2_1,"Wichita, KS",1,M_3_1,"Omaha, NE",1,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Seton Hall,8,M_1_8v9,"Wichita, KS",1,M_2_1,"Wichita, KS",2,M_3_1,"Omaha, NE",1,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Clemson,5,M_1_5v12,"San Diego, CA",1,M_2_2,"San Diego, CA",1,M_3_1,"Omaha, NE",2,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Auburn,4,M_1_4v13,"San Diego, CA",1,M_2_2,"San Diego, CA",2,M_3_1,"Omaha, NE",2,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,TCU,6,M_1_6v11,"Detroit, MI",1,M_2_3,"Detroit, MI",1,M_3_2,"Omaha, NE",1,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Michigan State,3,M_1_3v14,"Detroit, MI",1,M_2_3,"Detroit, MI",2,M_3_2,"Omaha, NE",1,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Rhode Island,7,M_1_7v10,"Pittsburgh, PA",1,M_2_4,"Pittsburgh, PA",1,M_3_2,"Omaha, NE",2,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Duke,2,M_1_2v15,"Pittsburgh, PA",1,M_2_4,"Pittsburgh, PA",2,M_3_2,"Omaha, NE",2,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+West,Xavier,1,W_1_1v16,"Nashville, TN",1,W_2_1,"Nashville, TN",1,W_3_1,"Los Angeles, CA",1,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Missouri,8,W_1_8v9,"Nashville, TN",1,W_2_1,"Nashville, TN",2,W_3_1,"Los Angeles, CA",1,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Ohio State,5,W_1_5v12,"Boise, ID",1,W_2_2,"Boise, ID",1,W_3_1,"Los Angeles, CA",2,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Gonzaga,4,W_1_4v13,"Boise, ID",1,W_2_2,"Boise, ID",2,W_3_1,"Los Angeles, CA",2,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Houston,6,W_1_6v11,"Wichita, KS",1,W_2_3,"Wichita, KS",1,W_3_2,"Los Angeles, CA",1,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Michigan,3,W_1_3v14,"Wichita, KS",1,W_2_3,"Wichita, KS",2,W_3_2,"Los Angeles, CA",1,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Texas A&M,7,W_1_7v10,"Charlotte, NC",1,W_2_4,"Charlotte, NC",1,W_3_2,"Los Angeles, CA",2,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,UNC,2,W_1_2v15,"Charlotte, NC",1,W_2_4,"Charlotte, NC",2,W_3_2,"Los Angeles, CA",2,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+South,Virginia,1,S_1_1v16,"Charlotte, NC",1,S_2_1,"Charlotte, NC",1,S_3_1,"Atlanta, GA",1,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Creighton,8,S_1_8v9,"Charlotte, NC",1,S_2_1,"Charlotte, NC",2,S_3_1,"Atlanta, GA",1,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Kentucky,5,S_1_5v12,"Boise, ID",1,S_2_2,"Boise, ID",1,S_3_1,"Atlanta, GA",2,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Arizona,4,S_1_4v13,"Boise, ID",1,S_2_2,"Boise, ID",2,S_3_1,"Atlanta, GA",2,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Miami (FL),6,S_1_6v11,"Dallas, TX",1,S_2_3,"Dallas, TX",1,S_3_2,"Atlanta, GA",1,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Tennessee,3,S_1_3v14,"Dallas, TX",1,S_2_3,"Dallas, TX",2,S_3_2,"Atlanta, GA",1,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Nevada,7,S_1_7v10,"Nashville, TN",1,S_2_4,"Nashville, TN",1,S_3_2,"Atlanta, GA",2,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Cincinnati,2,S_1_2v15,"Nashville, TN",1,S_2_4,"Nashville, TN",2,S_3_2,"Atlanta, GA",2,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+East,Radford,16,E_1_1v16,"Pittsburgh, PA",2,E_2_1,"Pittsburgh, PA",1,E_3_1,"Boston, MA",1,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Alabama,9,E_1_8v9,"Pittsburgh, PA",2,E_2_1,"Pittsburgh, PA",2,E_3_1,"Boston, MA",1,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Murray State,12,E_1_5v12,"San Diego, CA",2,E_2_2,"San Diego, CA",1,E_3_1,"Boston, MA",2,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Marshall,13,E_1_4v13,"San Diego, CA",2,E_2_2,"San Diego, CA",2,E_3_1,"Boston, MA",2,E_4,"Boston, MA",1,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,St. Bonaventure,11,E_1_6v11,"Dallas, TX",2,E_2_3,"Dallas, TX",1,E_3_2,"Boston, MA",1,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Stephen F. Austin,14,E_1_3v14,"Dallas, TX",2,E_2_3,"Dallas, TX",2,E_3_2,"Boston, MA",1,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Butler,10,E_1_7v10,"Detroit, MI",2,E_2_4,"Detroit, MI",1,E_3_2,"Boston, MA",2,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+East,Cal State Fullerton,15,E_1_2v15,"Detroit, MI",2,E_2_4,"Detroit, MI",2,E_3_2,"Boston, MA",2,E_4,"Boston, MA",2,FF_E_MW,"San Antonio, TX",1,FINAL,"San Antonio, TX",1
+Midwest,Penn,16,M_1_1v16,"Wichita, KS",2,M_2_1,"Wichita, KS",1,M_3_1,"Omaha, NE",1,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,NC State,9,M_1_8v9,"Wichita, KS",2,M_2_1,"Wichita, KS",2,M_3_1,"Omaha, NE",1,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,New Mexico State,12,M_1_5v12,"San Diego, CA",2,M_2_2,"San Diego, CA",1,M_3_1,"Omaha, NE",2,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,College of Charleston,13,M_1_4v13,"San Diego, CA",2,M_2_2,"San Diego, CA",2,M_3_1,"Omaha, NE",2,M_4,"Omaha, NE",1,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Syracuse,11,M_1_6v11,"Detroit, MI",2,M_2_3,"Detroit, MI",1,M_3_2,"Omaha, NE",1,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Bucknell,14,M_1_3v14,"Detroit, MI",2,M_2_3,"Detroit, MI",2,M_3_2,"Omaha, NE",1,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Oklahoma,10,M_1_7v10,"Pittsburgh, PA",2,M_2_4,"Pittsburgh, PA",1,M_3_2,"Omaha, NE",2,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+Midwest,Iona,15,M_1_2v15,"Pittsburgh, PA",2,M_2_4,"Pittsburgh, PA",2,M_3_2,"Omaha, NE",2,M_4,"Omaha, NE",2,FF_E_MW,"San Antonio, TX",2,FINAL,"San Antonio, TX",1
+West,Texas Southern,16,W_1_1v16,"Nashville, TN",2,W_2_1,"Nashville, TN",1,W_3_1,"Los Angeles, CA",1,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Florida State,9,W_1_8v9,"Nashville, TN",2,W_2_1,"Nashville, TN",2,W_3_1,"Los Angeles, CA",1,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,South Dakota State,12,W_1_5v12,"Boise, ID",2,W_2_2,"Boise, ID",1,W_3_1,"Los Angeles, CA",2,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,UNC Greensboro,13,W_1_4v13,"Boise, ID",2,W_2_2,"Boise, ID",2,W_3_1,"Los Angeles, CA",2,W_4,"Los Angeles, CA",1,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,San Diego State,11,W_1_6v11,"Wichita, KS",2,W_2_3,"Wichita, KS",1,W_3_2,"Los Angeles, CA",1,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Montana,14,W_1_3v14,"Wichita, KS",2,W_2_3,"Wichita, KS",2,W_3_2,"Los Angeles, CA",1,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Providence,10,W_1_7v10,"Charlotte, NC",2,W_2_4,"Charlotte, NC",1,W_3_2,"Los Angeles, CA",2,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+West,Lipscomb,15,W_1_2v15,"Charlotte, NC",2,W_2_4,"Charlotte, NC",2,W_3_2,"Los Angeles, CA",2,W_4,"Los Angeles, CA",2,FF_W_S,"San Antonio, TX",1,FINAL,"San Antonio, TX",2
+South,UMBC,16,S_1_1v16,"Charlotte, NC",2,S_2_1,"Charlotte, NC",1,S_3_1,"Atlanta, GA",1,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Kansas State,9,S_1_8v9,"Charlotte, NC",2,S_2_1,"Charlotte, NC",2,S_3_1,"Atlanta, GA",1,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Davidson,12,S_1_5v12,"Boise, ID",2,S_2_2,"Boise, ID",1,S_3_1,"Atlanta, GA",2,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Buffalo,13,S_1_4v13,"Boise, ID",2,S_2_2,"Boise, ID",2,S_3_1,"Atlanta, GA",2,S_4,"Atlanta, GA",1,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Loyola (IL),11,S_1_6v11,"Dallas, TX",2,S_2_3,"Dallas, TX",1,S_3_2,"Atlanta, GA",1,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Wright State,14,S_1_3v14,"Dallas, TX",2,S_2_3,"Dallas, TX",2,S_3_2,"Atlanta, GA",1,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Texas,10,S_1_7v10,"Nashville, TN",2,S_2_4,"Nashville, TN",1,S_3_2,"Atlanta, GA",2,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
+South,Georgia State,15,S_1_2v15,"Nashville, TN",2,S_2_4,"Nashville, TN",2,S_3_2,"Atlanta, GA",2,S_4,"Atlanta, GA",2,FF_W_S,"San Antonio, TX",2,FINAL,"San Antonio, TX",2
