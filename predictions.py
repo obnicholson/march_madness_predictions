@@ -116,12 +116,18 @@ def get_win_probability(matchup, position):
     
     probabilities = prediction_model.predict_proba(model_features_df)
 
+    loss_probability = probabilities[0][0]
     win_probability = probabilities[0][1]
-    seed = team_df['team_seed'][0]
+
     next_game = game_df['next_game'][0]
     next_game_pos = game_df['next_game_pos'][0]
 
-    return [win_probability, seed, next_game, next_game_pos]
+    matchup_outcome = {'win_probability': win_probability,
+                        'loss_probability': loss_probability,
+                        'next_game': next_game,
+                        'next_game_pos': next_game_pos}
+
+    return matchup_outcome
 
 
 # Create team/location matchups
@@ -221,13 +227,32 @@ rd_6_matchups = rd_6_matchups.rename(columns={'rd_6': 'game_id',
                                                 'seed_team2': 'seed_team2'})
 
 #all possible matchups
-all_possible_matchups = pd.concat([rd_1_matchups, rd_2_matchups, rd_3_matchups, rd_4_matchups, rd_5_matchups, rd_6_matchups], axis=0)
+all_possible_matchups = pd.concat([rd_1_matchups, rd_2_matchups, rd_3_matchups, rd_4_matchups, rd_5_matchups, rd_6_matchups], axis=0, ignore_index=True)
 
-test = all_possible_matchups.iloc[0,:]
-test2 = get_win_probability(test, 1)
-test3 = get_win_probability(test, 2)
 
-print(test2, test3)
+# Calculate all probabilities
+####################################################################################################
+all_possible_matchups['team1_win_probability'] = 0.0
+all_possible_matchups['team2_win_probability'] = 0.0
+all_possible_matchups['next_game'] = ''
+
+for index, matchup in all_possible_matchups.iterrows():
+    team1_model_outcome = get_win_probability(matchup,1)
+    team2_model_outcome = get_win_probability(matchup,2)
+
+    team1_win_probability = team1_model_outcome['win_probability']
+    team2_win_probability = team2_model_outcome['win_probability']
+    next_game = team1_model_outcome['next_game']
+
+    all_possible_matchups.at[index, 'team1_win_probability'] = team1_win_probability
+    all_possible_matchups.at[index, 'team2_win_probability'] = team2_win_probability
+    all_possible_matchups.at[index, 'next_game'] = next_game
+
+    print(index)
+
+all_possible_matchups.to_sql('matchup_probabilities', con=engine, if_exists='replace')
+
+
 
 
 
