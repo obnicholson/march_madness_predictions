@@ -3,24 +3,72 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>March Madness</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
 
 <body>
-    <div class = "container" id="bracket">
-        <div class="row">
+    <div class = "container-fluid">
+        <div class="row justify-content-center">
             <div class="column">
                 <h3>NCAA Predictions</h3>
             </div>
         </div>
+        <div id="bracket">
+            <div class="row justify-content-center">
+                <div class="col-md-1 south-west round1">
+                    <div id="round1_s"></div>
+                    <div id="round1_w"></div>
+                </div>
+                <div class="col-md-1 south-west round2">
+                    <div id="round2_s"></div>
+                    <div id="round2_w"></div>
+                </div>
+                <div class="col-md-1 south-west round3">
+                    <div id="round3_s"></div>
+                    <div id="round3_w"></div>
+                </div>
+                <div class="col-md-1 south-west round4">
+                    <div id="round4_s"></div>
+                    <div id="round4_w"></div>
+                </div>
+                <div class="col-md-1 south-west ff round5">
+                    <div id="round5_s_w"></div>
+                </div>
+                <div class="col-md-1 final round6">
+                    <div class="game" data-game="FINAL">
+                        <button type="button" class="team1 btn btn-outline-secondary btn-sm btn-block" data-team="1"></button>
+                        <img class="img-fluid">
+                        <button type="button" class="team2 btn btn-outline-secondary btn-sm btn-block" data-team="2"></button>
+                    </div>
+                </div>
+                <div class="col-md-1 east-midwest ff round5">
+                    <div id="round5_e_mw"></div>
+                </div>
+                <div class="col-md-1 east-midwest round4">
+                    <div id="round4_e"></div>
+                    <div id="round4_mw"></div>
+                </div>
+                <div class="col-md-1 east-midwest round3">
+                    <div id="round3_e"></div>
+                    <div id="round3_mw"></div>
+                </div>
+                <div class="col-md-1 east-midwest round2">
+                    <div id="round2_e"></div>
+                    <div id="round2_mw"></div>
+                </div>
+                <div class="col-md-1 east-midwest round1">
+                    <div id="round1_e"></div>
+                    <div id="round1_mw"></div>
+                </div>
+            </div>
+        </div> 
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="../static/js/bracket.js"></script>
 
 </body>

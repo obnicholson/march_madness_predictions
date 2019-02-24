@@ -59,6 +59,6 @@ E_4,East,4,,,,,"Boston, MA",FF_E_MW,1
 M_4,Midwest,4,,,,,"Omaha, NE",FF_E_MW,2
 W_4,West,4,,,,,"Los Angeles, CA",FF_W_S,1
 S_4,South,4,,,,,"Atlanta, GA",FF_W_S,2
-FF_E_MW,FF,5,,,,,"San Antonio, TX",FINAL,1
-FF_W_S,FF,5,,,,,"San Antonio, TX",FINAL,2
+FF_E_MW,FF_E_MW,5,,,,,"San Antonio, TX",FINAL,1
+FF_W_S,FF_W_S,5,,,,,"San Antonio, TX",FINAL,2
 FINAL,Final,6,,,,,"San Antonio, TX",na,0
