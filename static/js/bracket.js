@@ -36,6 +36,7 @@ function buildBracket(round, divisionInitial, bracket, roundGames) {
     
     gameDivs.append('button')
         .attr('type', 'button')
+        .classed('team', true)
         .classed('team1', true)
         .classed('btn btn-outline-secondary btn-sm btn-block', true)
         .attr('data-team', '1')
@@ -43,6 +44,7 @@ function buildBracket(round, divisionInitial, bracket, roundGames) {
     
     gameDivs.append('button')
         .attr('type', 'button')
+        .classed('team', true)
         .classed('team2', true)
         .classed('btn btn-outline-secondary btn-sm btn-block', true)
         .attr('data-team', '2')
@@ -290,40 +292,83 @@ d3.json(gamesURL).then(function(gameData){
             buildBracket('5', 's_w',  bracket, round5Games_S_W);
             buildBracket('5', 'e_mw',  bracket, round5Games_E_MW);
 
+            // bind round6 game data to game and to team buttons already in HTML
+            var round6Game = gameArray.filter(selectRound('6', 'Final'));
+            var round6Games = [round6Game[0], round6Game[0]]
+            bracket.select('.round6').selectAll('button').data(round6Games);
+
 
 // Populate initial bracket predictions; make responsive to recalculate predictions on user button selection
 // ####################################################################################################
             runPredictions(1, bracket);
 
-            var changeWinnerButtons = d3.selectAll('.btn-group-vertical').selectAll('.btn');
+
+// Make team buttons responsive to recalculate predictions on user selection
+// ####################################################################################################
+            var changeWinnerButtons = d3.selectAll('.team');
 
             changeWinnerButtons.on('click', function() {
                 var selectedButton = d3.select(this);
-                var selectedRound = selectedButton.data()[0].round;
 
+                var selectedRound = parseInt(selectedButton.data()[0].round);
                 var gameID = selectedButton.data()[0].game_id;
-                var game = bracket.select(`.game[data-game='${gameID}']`)
-
-                var gameInfo = getGameInfo(game, bracket);
-
-                var nextGameID = gameInfo.nextGame
-                var nextGamePos = gameInfo.nextGamePos;
+                var game = bracket.select(`.game[data-game=${gameID}]`)
                 var selectedWinnerName = selectedButton.text();
 
-                nextGame(nextGameID, nextGamePos, selectedWinnerName, bracket);
+                var selectedWinnerPos = selectedButton.attr('data-team');
+                if (selectedWinnerPos === '1') {
+                    var selectedLoserPos = '2';
+                }
+                else {
+                    var selectedLoserPos = '1';
+                }
 
-                var nextRound = parseInt(selectedRound) + 1
+                // change selected button to active, other team to inactive
+                selectedButton.classed('active', true);
+                game.select(`button[data-team="${selectedLoserPos}"]`)
+                    .classed('active', false);
 
-                runPredictions(nextRound, bracket);
+                // update future round predictions based on new selection
+                if (selectedRound < 6) {
+                    var gameInfo = getGameInfo(game, bracket);
+
+                    var nextGameID = gameInfo.nextGame
+                    var nextGamePos = gameInfo.nextGamePos;
+    
+                    nextGame(nextGameID, nextGamePos, selectedWinnerName, bracket);
+    
+                    var nextRound = selectedRound + 1
+    
+                    runPredictions(nextRound, bracket);
+                }
+
+                // update chamption logo for round 6 selection
+                else {
+                    var championSchoolInfo = schoolArray.find(function(school){
+                        return school.name === selectedWinnerName;
+                    });
+                    
+                    var championSchoolLogo = championSchoolInfo.logo
+                
+                    game.select('img')
+                        .attr('src', championSchoolLogo);
+                }
+            });
+
+
+// Reset predictions
+// ####################################################################################################
+            var resetPredictionsButton = d3.select('#reset');
+
+            resetPredictionsButton.on('click', function(){
+                runPredictions(1, bracket);
             });
         });
     });
 });
 
-
-// UPDATE BUTTON CLICK RESPONSE FOR FINALS SELECTION TO CHANGE HIGHLIGHT AND LOGO
-// RESET BUTTON
 // INDIVIDUAL DIVISIONS ZOOM IN???
+// TOOLTIPS???
 
 
 
