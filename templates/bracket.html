@@ -11,15 +11,18 @@
 </head>
 
 <body>
+    <nav class="navbar static-top navbar-expand-md">
+        <a class="navbar-brand" href="#"></a>
+            <span id="header" class="d-inline-block align-center">
+                    <img src="../static/images/basketball_logo.png" width="35" height="35" class="d-inline-block align-center"> 
+                    NCAA March Madness Predictions
+            </span>
+        </a>
+        <form class="form-inline ml-auto">
+            <button class="btn btn-outline-primary" type="button" id="reset">Reset Predictions</button>
+        </form>
+    </nav>
     <div class = "container-fluid">
-        <div class="row justify-content-center">
-            <div class="column">
-                <h3>NCAA Predictions</h3>
-                <div class="row justify-content-center">
-                    <button type="button" class="btn btn-outline-secondary btn-sm" id='reset'>Reset Predictions</button>
-                </div>
-            </div>
-        </div>
         <div id="bracket">
             <div class="row justify-content-center">
                 <div class="col-md-1 south-west round1">
@@ -42,10 +45,12 @@
                     <div id="round5_s_w"></div>
                 </div>
                 <div class="col-md-1 final round6">
-                    <div class="game" data-game="FINAL">
-                        <button type="button" class="team team1 btn btn-outline-secondary btn-sm btn-block" data-team="1" data-round="6"></button>
-                        <img class="img-fluid">
-                        <button type="button" class="team team2 btn btn-outline-secondary btn-sm btn-block" data-team="2" data-round="6"></button>
+                    <div class="gamediv">
+                        <div class="game" data-game="FINAL" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-html="true">
+                            <button type="button" class="team team1 btn btn-outline-secondary btn-sm btn-block" data-team="1" data-round="6"></button>
+                            <img class="img-fluid">
+                            <button type="button" class="team team2 btn btn-outline-secondary btn-sm btn-block" data-team="2" data-round="6"></button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-1 east-midwest ff round5">
@@ -71,6 +76,9 @@
         </div> 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script src="../static/js/bracket.js"></script>
 

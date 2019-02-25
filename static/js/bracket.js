@@ -26,13 +26,21 @@ function selectRound(round, division) {
 function buildBracket(round, divisionInitial, bracket, roundGames) {
     var roundDiv = bracket.select(`#round${round}_${divisionInitial}`)
 
-    var gameDivs = roundDiv.selectAll('btn-group-vertical')
+    var gameDivs = roundDiv.selectAll('.game')
         .data(roundGames)
         .enter()
         .append('div')
+        .classed('gamediv', true)
+        .append('div')
         .classed('game', true)
+        .attr('data-game', d=>d.game_id)
         .classed('btn-group-vertical', true)
-        .attr('data-game', d=>d.game_id);
+        
+        // tooltips;
+        .attr('data-toggle', 'tooltip')
+        .attr('data-placement', 'right')
+        .attr('data-trigger', 'hover')
+        .attr('data-html', true);
     
     gameDivs.append('button')
         .attr('type', 'button')
@@ -67,8 +75,6 @@ function getGameInfo(game, bracket) {
         return game.game_id === game_id;
     });
 
-    // var gameMatchupData = Object.assign(thisMatchup, thisGame);
-
     var gameInfo = {};
     gameInfo.game = game;
     gameInfo.nextGame = thisGame.nextGame;
@@ -99,20 +105,32 @@ function predictWinner(gameInfo) {
     var team2WinProb = gameInfo.team2WinProb;
 
     if (team1WinProb > team2WinProb) {
+        var modelConfidence = ((team1WinProb - team2WinProb) * 100).toFixed(2);
+
         game.select("button[data-team='1']")
             .classed('active', true);
 
         game.select("button[data-team='2']")
             .classed('active', false);
 
+        // tooltip
+        game.attr('title', `Predicted Winner: ${team1}<br>Model Confidence: ${modelConfidence}%`)
+            .attr('data-original-title', `Predicted Winner: ${team1}<br>Model Confidence: ${modelConfidence}%`);
+
         nextGame(nextGameID, nextGamePos, team1, bracket);
     }
     else {
+        var modelConfidence = ((team2WinProb - team1WinProb) * 100).toFixed(2);
+
         game.select("button[data-team='2']")
             .classed('active', true);
 
         game.select("button[data-team='1']")
-            .classed('active', false)
+            .classed('active', false);
+            
+        // tooltip
+        game.attr('title', `Predicted Winner: ${team2}<br>Model Confidence: ${modelConfidence}%`)
+            .attr('data-original-title', `Predicted Winner: ${team2}<br>Model Confidence: ${modelConfidence}%`);
 
         nextGame(nextGameID, nextGamePos, team2, bracket);
     }
@@ -363,12 +381,21 @@ d3.json(gamesURL).then(function(gameData){
             resetPredictionsButton.on('click', function(){
                 runPredictions(1, bracket);
             });
+
+// Activate tooltips
+// ####################################################################################################
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });
         });
     });
 });
 
-// INDIVIDUAL DIVISIONS ZOOM IN???
-// TOOLTIPS???
+// KEEP PREDICTIONS WHEN RERUNNING???
+// TOOLTIP STYLING
+// FLEXBOX
+// KEEPING BOX AROUND USER SELECTIONS? OR CHANGING STYLING ANOTHER WAY?
+
 
 
 
