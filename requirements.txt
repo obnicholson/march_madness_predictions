@@ -1,0 +1,6 @@
+Flask==1.0.2
+Six--1.11.0
+gunicorn==19.9.0
+requests==2.18.4
+Flask-SQLAlchemy==2.3.2
+pandas==0.23.2

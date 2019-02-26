@@ -8,11 +8,6 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
-from geopy.geocoders import MapBox
-from geopy.distance import geodesic
-
-import pickle
-
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
