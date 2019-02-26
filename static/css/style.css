@@ -151,6 +151,12 @@ body {
     padding-top: 317.5px;
 }
 
+@media (max-width: 480px) { 
+    .gamediv {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
 
 /* image */
 img { 
