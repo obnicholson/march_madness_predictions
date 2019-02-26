@@ -108,10 +108,12 @@ function predictWinner(gameInfo) {
         var modelConfidence = ((team1WinProb - team2WinProb) * 100).toFixed(2);
 
         game.select("button[data-team='1']")
-            .classed('active', true);
+            .classed('active', true)
+            .classed('user-selected', false);
 
         game.select("button[data-team='2']")
-            .classed('active', false);
+            .classed('active', false)
+            .classed('user-selected', false);
 
         // tooltip
         game.attr('title', `Predicted Winner: ${team1}<br>Model Confidence: ${modelConfidence}%`)
@@ -123,10 +125,12 @@ function predictWinner(gameInfo) {
         var modelConfidence = ((team2WinProb - team1WinProb) * 100).toFixed(2);
 
         game.select("button[data-team='2']")
-            .classed('active', true);
+            .classed('active', true)
+            .classed('user-selected', false);
 
         game.select("button[data-team='1']")
-            .classed('active', false);
+            .classed('active', false)
+            .classed('user-selected', false);
             
         // tooltip
         game.attr('title', `Predicted Winner: ${team2}<br>Model Confidence: ${modelConfidence}%`)
@@ -342,9 +346,12 @@ d3.json(gamesURL).then(function(gameData){
                 }
 
                 // change selected button to active, other team to inactive
-                selectedButton.classed('active', true);
+                selectedButton.classed('active', true)
+                    .classed('user-selected', true);
+
                 game.select(`button[data-team="${selectedLoserPos}"]`)
-                    .classed('active', false);
+                    .classed('active', false)
+                    .classed('user-selected', false);
 
                 // update future round predictions based on new selection
                 if (selectedRound < 6) {
@@ -391,10 +398,6 @@ d3.json(gamesURL).then(function(gameData){
     });
 });
 
-// KEEP PREDICTIONS WHEN RERUNNING???
-// TOOLTIP STYLING
-// FLEXBOX
-// KEEPING BOX AROUND USER SELECTIONS? OR CHANGING STYLING ANOTHER WAY?
 
 
 
