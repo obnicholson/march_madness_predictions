@@ -1,0 +1,69 @@
+bracket,team,seed,rd_1,rd_1_location,rd_1_pos,rd_2,rd_2_location,rd_2_pos,rd_3,rd_3_location,rd_3_pos,rd_4,rd_4_location,rd_4_pos,rd_5,rd_5_location,rd_5_pos,rd_6,rd_6_location,rd_6_pos
+East,Duke,1,E_1_1v16,"Columbia, SC",1,E_2_1,"Columbia, SC",1,E_3_1,"Washington, D.C.",1,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,VCU,8,E_1_8v9,"Columbia, SC",1,E_2_1,"Columbia, SC",2,E_3_1,"Washington, D.C.",1,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Mississippi State,5,E_1_5v12,"San Jose, CA",1,E_2_2,"San Jose, CA",1,E_3_1,"Washington, D.C.",2,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Virginia Tech,4,E_1_4v13,"San Jose, CA",1,E_2_2,"San Jose, CA",2,E_3_1,"Washington, D.C.",2,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Maryland,6,E_1_6v11,"Jacksonville, FL",1,E_2_3,"Jacksonville, FL",1,E_3_2,"Washington, D.C.",1,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,LSU,3,E_1_3v14,"Jacksonville, FL",1,E_2_3,"Jacksonville, FL",2,E_3_2,"Washington, D.C.",1,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Louisville,7,E_1_7v10,"Des Moines, IA",1,E_2_4,"Des Moines, IA",1,E_3_2,"Washington, D.C.",2,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Michigan State,2,E_1_2v15,"Des Moines, IA",1,E_2_4,"Des Moines, IA",2,E_3_2,"Washington, D.C.",2,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+West,Gonzaga,1,W_1_1v16,"Salt Lake City, UT",1,W_2_1,"Salt Lake City, UT",1,W_3_1,"Anaheim, CA",1,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Syracuse,8,W_1_8v9,"Salt Lake City, UT",1,W_2_1,"Salt Lake City, UT",2,W_3_1,"Anaheim, CA",1,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Marquette,5,W_1_5v12,"Hartford, CT",1,W_2_2,"Hartford, CT",1,W_3_1,"Anaheim, CA",2,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Florida State,4,W_1_4v13,"Hartford, CT",1,W_2_2,"Hartford, CT",2,W_3_1,"Anaheim, CA",2,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Buffalo,6,W_1_6v11,"Tulsa, OK",1,W_2_3,"Tulsa, OK",1,W_3_2,"Anaheim, CA",1,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Texas Tech,3,W_1_3v14,"Tulsa, OK",1,W_2_3,"Tulsa, OK",2,W_3_2,"Anaheim, CA",1,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Nevada,7,W_1_7v10,"Des Moines, IA",1,W_2_4,"Des Moines, IA",1,W_3_2,"Anaheim, CA",2,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Michigan,2,W_1_2v15,"Des Moines, IA",1,W_2_4,"Des Moines, IA",2,W_3_2,"Anaheim, CA",2,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+South,Virginia,1,S_1_1v16,"Columbia, SC",1,S_2_1,"Columbia, SC",1,S_3_1,"Louisville, KY",1,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Ole Miss,8,S_1_8v9,"Columbia, SC",1,S_2_1,"Columbia, SC",2,S_3_1,"Louisville, KY",1,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Wisconsin,5,S_1_5v12,"San Jose, CA",1,S_2_2,"San Jose, CA",1,S_3_1,"Louisville, KY",2,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Kansas State,4,S_1_4v13,"San Jose, CA",1,S_2_2,"San Jose, CA",2,S_3_1,"Louisville, KY",2,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Villanova,6,S_1_6v11,"Hartford, CT",1,S_2_3,"Hartford, CT",1,S_3_2,"Louisville, KY",1,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Purdue,3,S_1_3v14,"Hartford, CT",1,S_2_3,"Hartford, CT",2,S_3_2,"Louisville, KY",1,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Cincinnati,7,S_1_7v10,"Columbus, OH",1,S_2_4,"Columbus, OH",1,S_3_2,"Louisville, KY",2,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Tennessee,2,S_1_2v15,"Columbus, OH",1,S_2_4,"Columbus, OH",2,S_3_2,"Louisville, KY",2,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+Midwest,North Carolina,1,M_1_1v16,"Columbus, OH",1,M_2_1,"Columbus, OH",1,M_3_1,"Kansas City, MO",1,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Utah State,8,M_1_8v9,"Columbus, OH",1,M_2_1,"Columbus, OH",2,M_3_1,"Kansas City, MO",1,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Auburn,5,M_1_5v12,"Salt Lake City, UT",1,M_2_2,"Salt Lake City, UT",1,M_3_1,"Kansas City, MO",2,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Kansas,4,M_1_4v13,"Salt Lake City, UT",1,M_2_2,"Salt Lake City, UT",2,M_3_1,"Kansas City, MO",2,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Iowa State,6,M_1_6v11,"Tulsa, OK",1,M_2_3,"Tulsa, OK",1,M_3_2,"Kansas City, MO",1,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Houston,3,M_1_3v14,"Tulsa, OK",1,M_2_3,"Tulsa, OK",2,M_3_2,"Kansas City, MO",1,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Wofford,7,M_1_7v10,"Jacksonville, FL",1,M_2_4,"Jacksonville, FL",1,M_3_2,"Kansas City, MO",2,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Kentucky,2,M_1_2v15,"Jacksonville, FL",1,M_2_4,"Jacksonville, FL",2,M_3_2,"Kansas City, MO",2,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+East,NC Central,16,E_1_1v16,"Columbia, SC",2,E_2_1,"Columbia, SC",1,E_3_1,"Washington, D.C.",1,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,North Dakota State,16,E_1_1v16,"Columbia, SC",2,E_2_1,"Columbia, SC",1,E_3_1,"Washington, D.C.",1,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,UCF,9,E_1_8v9,"Columbia, SC",2,E_2_1,"Columbia, SC",2,E_3_1,"Washington, D.C.",1,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Liberty,12,E_1_5v12,"San Jose, CA",2,E_2_2,"San Jose, CA",1,E_3_1,"Washington, D.C.",2,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Saint Louis,13,E_1_4v13,"San Jose, CA",2,E_2_2,"San Jose, CA",2,E_3_1,"Washington, D.C.",2,E_4,"Washington, D.C.",1,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Belmont,11,E_1_6v11,"Jacksonville, FL",2,E_2_3,"Jacksonville, FL",1,E_3_2,"Washington, D.C.",1,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Temple,11,E_1_6v11,"Jacksonville, FL",2,E_2_3,"Jacksonville, FL",1,E_3_2,"Washington, D.C.",1,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Yale,14,E_1_3v14,"Jacksonville, FL",2,E_2_3,"Jacksonville, FL",2,E_3_2,"Washington, D.C.",1,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Minnesota,10,E_1_7v10,"Des Moines, IA",2,E_2_4,"Des Moines, IA",1,E_3_2,"Washington, D.C.",2,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+East,Bradley,15,E_1_2v15,"Des Moines, IA",2,E_2_4,"Des Moines, IA",2,E_3_2,"Washington, D.C.",2,E_4,"Washington, D.C.",2,FF_E_W,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",1
+West,Fairleigh Dickinson,16,W_1_1v16,"Salt Lake City, UT",2,W_2_1,"Salt Lake City, UT",1,W_3_1,"Anaheim, CA",1,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Prairie View,16,W_1_1v16,"Salt Lake City, UT",2,W_2_1,"Salt Lake City, UT",1,W_3_1,"Anaheim, CA",1,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Baylor,9,W_1_8v9,"Salt Lake City, UT",2,W_2_1,"Salt Lake City, UT",2,W_3_1,"Anaheim, CA",1,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Murray State,12,W_1_5v12,"Hartford, CT",2,W_2_2,"Hartford, CT",1,W_3_1,"Anaheim, CA",2,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Vermont,13,W_1_4v13,"Hartford, CT",2,W_2_2,"Hartford, CT",2,W_3_1,"Anaheim, CA",2,W_4,"Anaheim, CA",1,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Arizona State,11,W_1_6v11,"Tulsa, OK",2,W_2_3,"Tulsa, OK",1,W_3_2,"Anaheim, CA",1,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Saint Johns,11,W_1_6v11,"Tulsa, OK",2,W_2_3,"Tulsa, OK",1,W_3_2,"Anaheim, CA",1,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,N. Kentucky,14,W_1_3v14,"Tulsa, OK",2,W_2_3,"Tulsa, OK",2,W_3_2,"Anaheim, CA",1,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Florida,10,W_1_7v10,"Des Moines, IA",2,W_2_4,"Des Moines, IA",1,W_3_2,"Anaheim, CA",2,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+West,Montana,15,W_1_2v15,"Des Moines, IA",2,W_2_4,"Des Moines, IA",2,W_3_2,"Anaheim, CA",2,W_4,"Anaheim, CA",2,FF_E_W,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",1
+South,Gardner-Webb,16,S_1_1v16,"Columbia, SC",2,S_2_1,"Columbia, SC",1,S_3_1,"Louisville, KY",1,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Oklahoma,9,S_1_8v9,"Columbia, SC",2,S_2_1,"Columbia, SC",2,S_3_1,"Louisville, KY",1,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Oregon,12,S_1_5v12,"San Jose, CA",2,S_2_2,"San Jose, CA",1,S_3_1,"Louisville, KY",2,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,UC Irvine,13,S_1_4v13,"San Jose, CA",2,S_2_2,"San Jose, CA",2,S_3_1,"Louisville, KY",2,S_4,"Louisville, KY",1,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Saint Marys,11,S_1_6v11,"Hartford, CT",2,S_2_3,"Hartford, CT",1,S_3_2,"Louisville, KY",1,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Old Dominion,14,S_1_3v14,"Hartford, CT",2,S_2_3,"Hartford, CT",2,S_3_2,"Louisville, KY",1,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Iowa,10,S_1_7v10,"Columbus, OH",2,S_2_4,"Columbus, OH",1,S_3_2,"Louisville, KY",2,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+South,Colgate,15,S_1_2v15,"Columbus, OH",2,S_2_4,"Columbus, OH",2,S_3_2,"Louisville, KY",2,S_4,"Louisville, KY",2,FF_S_M,"Minneapolis, MN",1,FINAL,"Minneapolis, MN",2
+Midwest,Iona,16,M_1_1v16,"Columbus, OH",2,M_2_1,"Columbus, OH",1,M_3_1,"Kansas City, MO",1,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Washington,9,M_1_8v9,"Columbus, OH",2,M_2_1,"Columbus, OH",2,M_3_1,"Kansas City, MO",1,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,New Mexico State,12,M_1_5v12,"Salt Lake City, UT",2,M_2_2,"Salt Lake City, UT",1,M_3_1,"Kansas City, MO",2,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Northeastern,13,M_1_4v13,"Salt Lake City, UT",2,M_2_2,"Salt Lake City, UT",2,M_3_1,"Kansas City, MO",2,M_4,"Kansas City, MO",1,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Ohio State,11,M_1_6v11,"Tulsa, OK",2,M_2_3,"Tulsa, OK",1,M_3_2,"Kansas City, MO",1,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Georgia State,14,M_1_3v14,"Tulsa, OK",2,M_2_3,"Tulsa, OK",2,M_3_2,"Kansas City, MO",1,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Seton Hall,10,M_1_7v10,"Jacksonville, FL",2,M_2_4,"Jacksonville, FL",1,M_3_2,"Kansas City, MO",2,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2
+Midwest,Abilene Christian,15,M_1_2v15,"Jacksonville, FL",2,M_2_4,"Jacksonville, FL",2,M_3_2,"Kansas City, MO",2,M_4,"Kansas City, MO",2,FF_S_M,"Minneapolis, MN",2,FINAL,"Minneapolis, MN",2

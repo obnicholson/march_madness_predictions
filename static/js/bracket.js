@@ -67,6 +67,10 @@ function getGameInfo(game, bracket) {
     var team1 = game.select("button[data-team='1']").text();
     var team2 = game.select("button[data-team='2']").text(); 
 
+    console.log(game_id);
+    console.log(team1);
+    console.log(team2);
+
     var thisMatchup = matchupArray.find(function(matchup){
         return matchup.game_id === game_id && matchup.team1 === team1 && matchup.team2 === team2;
     }); 
@@ -250,7 +254,7 @@ d3.json(gamesURL).then(function(gameData){
             matchupArray[key].team2WinProb = value;
         });
 
-
+        console.log(matchupArray);
 // Get school data
 // ####################################################################################################
         d3.json(schoolsURL).then(function(schoolData){
@@ -286,8 +290,8 @@ d3.json(gamesURL).then(function(gameData){
             var round4Games_MW = gameArray.filter(selectRound('4', 'Midwest'));
             var round4Games_E = gameArray.filter(selectRound('4', 'East'));
 
-            var round5Games_S_W = gameArray.filter(selectRound('5', 'FF_W_S'));
-            var round5Games_E_MW = gameArray.filter(selectRound('5', 'FF_E_MW'));
+            var round5Games_E_W = gameArray.filter(selectRound('5', 'FF_E_W'));
+            var round5Games_S_MW = gameArray.filter(selectRound('5', 'FF_S_M'));
 
             var bracket = d3.select('#bracket');
 
@@ -311,8 +315,8 @@ d3.json(gamesURL).then(function(gameData){
             buildBracket('4', 'mw',  bracket, round4Games_MW);
             buildBracket('4', 'e',  bracket, round4Games_E);
 
-            buildBracket('5', 's_w',  bracket, round5Games_S_W);
-            buildBracket('5', 'e_mw',  bracket, round5Games_E_MW);
+            buildBracket('5', 'e_w',  bracket, round5Games_E_W);
+            buildBracket('5', 's_m',  bracket, round5Games_S_MW);
 
             // bind round6 game data to game and to team buttons already in HTML
             var round6Game = gameArray.filter(selectRound('6', 'Final'));

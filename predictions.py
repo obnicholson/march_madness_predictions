@@ -32,9 +32,9 @@ engine = create_engine("sqlite:///db/ncaa_history.sqlite")
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
-games = Base.classes.bracket_paths
-game_schedule = Base.classes.bracket_schedule
-teams = Base.classes.teams_predictions
+games = Base.classes.bracket_paths_2019
+game_schedule = Base.classes.bracket_schedule_2019
+teams = Base.classes.teams_2019
 schools = Base.classes.schools
 
 session = Session(engine)
@@ -250,7 +250,7 @@ for index, matchup in all_possible_matchups.iterrows():
 
     print(index)
 
-all_possible_matchups.to_sql('matchup_probabilities', con=engine, if_exists='replace')
+all_possible_matchups.to_sql('matchup_probabilities_2019', con=engine, if_exists='replace')
 
 
 

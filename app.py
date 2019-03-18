@@ -19,8 +19,8 @@ engine = create_engine("sqlite:///db/ncaa_history.sqlite")
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
-games = Base.classes.bracket_schedule
-probabilities = Base.classes.matchup_probabilities
+games = Base.classes.bracket_schedule_2019
+probabilities = Base.classes.matchup_probabilities_2019
 schools = Base.classes.schools
 
 session = Session(engine)

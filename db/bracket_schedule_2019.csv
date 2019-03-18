@@ -1,0 +1,64 @@
+game_id,bracket,round,team1,seed1,team2,seed2,location,next_game,next_game_pos
+E_1_1v16,East,1,Duke,1,,16,"Columbia, SC",E_2_1,1
+E_1_8v9,East,1,VCU,8,UCF,9,"Columbia, SC",E_2_1,2
+E_1_5v12,East,1,Mississippi State,5,Liberty,12,"San Jose, CA",E_2_2,1
+E_1_4v13,East,1,Virginia Tech,4,Saint Louis,13,"San Jose, CA",E_2_2,2
+E_1_6v11,East,1,Maryland,6,,11,"Jacksonville, FL",E_2_3,1
+E_1_3v14,East,1,LSU,3,Yale,14,"Jacksonville, FL",E_2_3,2
+E_1_7v10,East,1,Louisville,7,Minnesota,10,"Des Moines, IA",E_2_4,1
+E_1_2v15,East,1,Michigan State,2,Bradley,15,"Des Moines, IA",E_2_4,2
+W_1_1v16,West,1,Gonzaga,1,,16,"Salt Lake City, UT",W_2_1,1
+W_1_8v9,West,1,Syracuse,8,Baylor,9,"Salt Lake City, UT",W_2_1,2
+W_1_5v12,West,1,Marquette,5,Murray State,12,"Hartford, CT",W_2_2,1
+W_1_4v13,West,1,Florida State,4,Vermont,13,"Hartford, CT",W_2_2,2
+W_1_6v11,West,1,Buffalo,6,,11,"Tulsa, OK",W_2_3,1
+W_1_3v14,West,1,Texas Tech,3,N. Kentucky,14,"Tulsa, OK",W_2_3,2
+W_1_7v10,West,1,Nevada,7,Florida,10,"Des Moines, IA",W_2_4,1
+W_1_2v15,West,1,Michigan,2,Montana,15,"Des Moines, IA",W_2_4,2
+S_1_1v16,South,1,Virginia,1,Gardner-Webb,16,"Columbia, SC",S_2_1,1
+S_1_8v9,South,1,Ole Miss,8,Oklahoma,9,"Columbia, SC",S_2_1,2
+S_1_5v12,South,1,Wisconsin,5,Oregon,12,"San Jose, CA",S_2_2,1
+S_1_4v13,South,1,Kansas State,4,UC Irvine,13,"San Jose, CA",S_2_2,2
+S_1_6v11,South,1,Villanova,6,Saint Marys,11,"Hartford, CT",S_2_3,1
+S_1_3v14,South,1,Purdue,3,Old Dominion,14,"Hartford, CT",S_2_3,2
+S_1_7v10,South,1,Cincinnati,7,Iowa,10,"Columbus, OH",S_2_4,1
+S_1_2v15,South,1,Tennessee,2,Colgate,15,"Columbus, OH",S_2_4,2
+M_1_1v16,Midwest,1,North Carolina,1,Iona,16,"Columbus, OH",M_2_1,1
+M_1_8v9,Midwest,1,Utah State,8,Washington,9,"Columbus, OH",M_2_1,2
+M_1_5v12,Midwest,1,Auburn,5,New Mexico State,12,"Salt Lake City, UT",M_2_2,1
+M_1_4v13,Midwest,1,Kansas,4,Northeastern,13,"Salt Lake City, UT",M_2_2,2
+M_1_6v11,Midwest,1,Iowa State,6,Ohio State,11,"Tulsa, OK",M_2_3,1
+M_1_3v14,Midwest,1,Houston,3,Georgia State,14,"Tulsa, OK",M_2_3,2
+M_1_7v10,Midwest,1,Wofford,7,Seton Hall,10,"Jacksonville, FL",M_2_4,1
+M_1_2v15,Midwest,1,Kentucky,2,Abilene Christian,15,"Jacksonville, FL",M_2_4,2
+E_2_1,East,2,,,,,"Columbia, SC",E_3_1,1
+E_2_2,East,2,,,,,"San Jose, CA",E_3_1,2
+E_2_3,East,2,,,,,"Jacksonville, FL",E_3_2,1
+E_2_4,East,2,,,,,"Des Moines, IA",E_3_2,2
+W_2_1,West,2,,,,,"Salt Lake City, UT",W_3_1,1
+W_2_2,West,2,,,,,"Hartford, CT",W_3_1,2
+W_2_3,West,2,,,,,"Tulsa, OK",W_3_2,1
+W_2_4,West,2,,,,,"Des Moines, IA",W_3_2,2
+S_2_1,South,2,,,,,"Columbia, SC",S_3_1,1
+S_2_2,South,2,,,,,"San Jose, CA",S_3_1,2
+S_2_3,South,2,,,,,"Hartford, CT",S_3_2,1
+S_2_4,South,2,,,,,"Columbus, OH",S_3_2,2
+M_2_1,Midwest,2,,,,,"Columbus, OH",M_3_1,1
+M_2_2,Midwest,2,,,,,"Salt Lake City, UT",M_3_1,2
+M_2_3,Midwest,2,,,,,"Tulsa, OK",M_3_2,1
+M_2_4,Midwest,2,,,,,"Jacksonville, FL",M_3_2,2
+E_3_1,East,3,,,,,"Washington, D.C.",E_4,1
+E_3_2,East,3,,,,,"Washington, D.C.",E_4,2
+W_3_1,West,3,,,,,"Anaheim, CA",W_4,1
+W_3_2,West,3,,,,,"Anaheim, CA",W_4,2
+S_3_1,South,3,,,,,"Louisville, KY",S_4,1
+S_3_2,South,3,,,,,"Louisville, KY",S_4,2
+M_3_1,Midwest,3,,,,,"Kansas City, MO",M_4,1
+M_3_2,Midwest,3,,,,,"Kansas City, MO",M_4,2
+E_4,East,4,,,,,"Washington, D.C.",FF_E_W,1
+W_4,West,4,,,,,"Anaheim, CA",FF_E_W,2
+S_4,South,4,,,,,"Louisville, KY",FF_S_M,1
+M_4,Midwest,4,,,,,"Kansas City, MO",FF_S_M,2
+FF_E_W,FF_E_W,5,,,,,"Minneapolis, MN",FINAL,1
+FF_S_M,FF_S_M,5,,,,,"Minneapolis, MN",FINAL,2
+FINAL,Final,6,,,,,"Minneapolis, MN",na,0
